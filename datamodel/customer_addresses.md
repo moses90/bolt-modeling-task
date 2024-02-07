@@ -8,4 +8,4 @@
 |is_home     | Boolean value wether the address is the customer's home address. [1,0] |
 |created_at  | Timestamp when the address was created. |
 |updated_at  | Timestamp when the address was modified. |
-|deleted_at  | Timestamp when the address was deleted. |
+|deleted_at  | Timestamp when the address was soft deleted. |
