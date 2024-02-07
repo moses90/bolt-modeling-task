@@ -2,8 +2,9 @@
 |--------------------|-------------|
 |id                  | Primary key - Unique identifier of the orders. |
 |customer_id         | Foreign key - Unique identifier of a customer who made the order. |
-|customer_address_id | Foreign key - Unique identifier of the address of the delivery. |
+|customer_address_id | Foreign key - Unique identifier of the address of the delivery, if the address is saved in the database. |
 |restaurant_id       | Foreign key - Unique identifier of a restaurant where the order was made from. |
+|customer_address    | Address of the delivery. |
 |description         | Details of the order. |
 |status              | Status of the order. [In preparation, At courier, Delivered, Cancalled] |
 |payment_method      | Way of the payment. [Cash, Card in app, Card at courier] |
