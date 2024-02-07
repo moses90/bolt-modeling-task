@@ -9,4 +9,4 @@
 |delivery_type        | Way of delivery. [car, scooter, bike, other] |
 |created_at           | Timestamp when the courier's account was first created. |
 |updated_at           | Timestamp when the courier's record was modified. |
-|deleted_at           | Timestamp when the courier's account was deleted. |
+|deleted_at           | Timestamp when the courier's account was soft deleted. |
