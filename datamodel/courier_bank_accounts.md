@@ -5,4 +5,4 @@
 |account_number | Courier's bank account number. |
 |created_at     | Timestamp when record was created. |
 |updated_at     | Timestamp when record was modified. |
-|deleted_at     | Timestamp when record was deleted. |
+|deleted_at     | Timestamp when record was soft deleted. |
