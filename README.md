@@ -14,4 +14,8 @@ In this recommendation/assumption:
 - Python scripts and dbt is orchestrated with Mage.
 
 ### Data Marts
-lorem ipsum
+Complexities and obstacles:
+- translating business needs and defining the metrics to be as relevant as possible for the company would require extra care (e.g. what is an active user?)
+- data storage and transformation performance is crucial. aggregations on millions of rows would need proper indexing and other performance optimization techniques 
+- how much latency is okay with the metrics? which metrics should be real-time (or near real-time) and which shouldn't?
+- in case of some of personal and sensitive informations, security measures need to be considered to be complient with GDPR and other regulations
